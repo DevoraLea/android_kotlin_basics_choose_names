@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">NamesIdeias</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="GIRLS">
+        <item>Ariela</item><item>Alin</item>
+        <item>Beila</item>
+        <item>Chana</item>
+        <item>Dani</item><item>Dvora</item><item>Dina</item>
+        <item>Ester</item>
+        <item>Feiga</item><item>Freida</item>
+        <item>Gali</item><item>Gity</item>
+        <item>Haia</item><item>Hadassa</item><item>Hadar</item>
+        <item>Ilana</item>
+        <item>Jani</item>
+        <item>Karen</item>
+        <item>Lea</item>
+        <item>Mushka</item><item>Maya</item>
+        <item>Noa</item><item>Naomi</item>
+        <item>Odaia</item><item>Ori</item><item>Orly</item><item>Oriya</item>
+        <item>Paulina</item>
+        <item>Rut</item><item>Rachel</item><item>Rivka</item>
+        <item>Shir</item><item>Sharon</item><item>Sheina</item><item>Sara</item><item>Shterna</item>
+        <item>Tamy</item>
+        <item>Uria</item>
+        <item>Vicky</item>
+
+        <item>Yarden</item>
+    </string-array>
+    <string-array name="BOYS">
+        <item>Ariel</item><item>Avraham</item><item>Avichai</item>
+        <item>Beni</item>
+        <item>Chaim</item>
+        <item>David</item><item>Daniel</item><item>Dov</item>
+        <item>Eliahu</item>
+
+        <item>Gavriel</item><item>Gilad</item>
+        <item>Haim</item>
+        <item>Itschak</item>
+        <item>Jacob</item>
+        <item>Levi</item>
+        <item>Mendy</item><item>Moshe</item><item>Michael</item>
+        <item>Reuven</item><item>Rafael</item>
+        <item>Shlomo</item>
+        <item>Udi</item>
+        <item>Yosef</item>
+
+
+    </string-array>
+</resources>

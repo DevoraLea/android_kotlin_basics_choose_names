@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_words"
+    app:startDestination="@id/letterFragment">
+
+    <fragment
+        android:id="@+id/letterFragment"
+        android:name="com.example.namesideias.LetterFragment"
+        android:label="Choose Names - GIRLS/BOYS"
+        tools:layout="@layout/fragment_letter">
+        <action
+            android:id="@+id/action_letterFragment_to_nameFragment"
+            app:destination="@id/nameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nameFragment"
+        android:name="com.example.namesideias.NameFragment"
+        android:label="Names that start with {letter_name}"
+        tools:layout="@layout/fragment_name">
+        <argument
+            android:name="letter_name"
+            app:argType="string" />
+    </fragment>
+</navigation>

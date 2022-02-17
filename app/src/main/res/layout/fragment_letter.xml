@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LetterFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="NAMES OF:BOYS"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#245104"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/boy" />
+
+        <Switch
+            android:id="@+id/switch_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#59A31B"
+            android:backgroundTint="#2F4A18"
+            android:checked="true"
+            android:shadowColor="#4C6528"
+            android:showText="false"
+            android:textColorLink="#42A505"
+            android:textOff="BOYS NAMEs"
+            android:textOn="GIRLS NAMES" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/girl" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
